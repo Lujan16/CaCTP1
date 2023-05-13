@@ -1,0 +1,93 @@
+
+/**navbar*/
+
+.navbar-brand-h1{
+    color:white;
+    font: 5px;
+    
+}
+.navbar img{
+    width: 80px;
+    margin-right: 1px;
+    padding: 2px;
+}
+
+.navbar .navbar-nav{
+    text-align: center;
+}
+
+.navbar .navbar-nav a:last-child{
+    color: #009349;
+}
+ 
+
+
+/* portada*/
+
+.container-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    align-items: center;
+  
+    
+}
+.description {
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: right;
+    
+}
+
+.portada .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/* imagen 2*/
+.bg{
+    background-color: #353a40;   
+}
+/* footer*/
+.footer{
+    background-color: #1e516e;
+    height: 90px;
+    
+}
+
+.btn.mb-3{
+    width: 100%; 
+    background-color: #98ca50; 
+    color: white
+}
+
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+
+/*scrollbar*/ 
+body::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(0, 183, 255, 0.219);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(45, 55, 61, 0.925);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
